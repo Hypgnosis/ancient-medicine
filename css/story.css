@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    margin-left: 30px;
+    padding-left: 20px;
+    font-family: "Philosopher";
+    font-size: 1.2rem;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    background: rgba(56, 27, 97, 0.8);
+    cursor: pointer;
+}
+
+.socialIcon {
+    display: inline-flex;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.socialIcon:hover {
+    cursor: pointer;
+}
+
+section#myStory {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/JC-1920-1166.jpg) no-repeat;
+    transition: .5s;
+}
+
+.Container {
+    float: left;
+    margin-left: 55px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    max-width: 700px;
+    max-height: 675px;
+    font-family: "Vesper Libre";
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    overflow: scroll;
+
+}
+
+.Container::-webkit-scrollbar {
+    width: 12px;
+}
+
+.Container::-webkit-scrollbar-track {
+    width: 10px;
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.6)
+}
+
+.Container::-webkit-scrollbar-thumb {
+    background: linear-gradient(#3d1d69, #effc20);
+    border-radius: 6px;
+}
+
+section#myStory h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 15px;
+    color: whitesmoke;
+
+}
+
+.content {
+    text-align: justify;
+    margin: 25px;
+    font-size: 16px;
+    color: black;
+
+}
+
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 5px 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+
+.copyicon {
+    width: 15px;
+    height: auto;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center
+}
+
+@media screen and (max-width:1030px) {
+    section#myStory {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 100%;
+        background: url(../img/JC-1024x1336.jpg) no-repeat;
+        transition: .5s;
+    }
+
+    .Container {
+        float: left;
+        margin-left: 55px;
+        position: relative;
+        top: 70px;
+        left: 110px;
+         max-width: 700px;
+        max-height: 975px;
+        font-family: "Vesper Libre";
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        overflow: scroll;
+}
+}
+@media screen and (max-width:834px){
+      section#myStory {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 100%;
+        background: url(../img/JC-800x1281.jpg) no-repeat;
+        transition: .5s;
+    }
+
+    .Container {
+        float: left;
+        margin-left: 55px;
+        position: relative;
+        top: 70px;
+        left: 80px;
+        max-width: 300px;
+        max-height: 600px;
+        font-family: "Vesper Libre";
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        overflow: scroll;
+    
+}
+@media screen and (max-width:500px){
+      section#myStory {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 100%;
+        background: url(../img/JC-500x896.jpg) no-repeat;
+        transition: .5s;
+    }
+
+    .Container {
+        display: block;
+        margin-left: -45px;
+        position: relative;
+        top: 10px;
+        max-width: 350px;
+        max-height: 700px;
+        font-family: "Vesper Libre";
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        overflow: scroll;
+    
+}

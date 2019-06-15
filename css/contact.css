@@ -1,0 +1,487 @@
+body {
+    padding: 0;
+    margin: 0;
+    }
+
+.nav-link {
+    margin-left: 30px;
+    padding-left: 20px;
+    font-family: "Philosopher";
+    font-size: 1.2rem;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    background: rgba(56, 27, 97, 0.8);
+    cursor: pointer;
+}
+
+.socialIcon {
+    display: inline-flex;
+    margin: 10px;
+    padding-right: 30px;
+}
+
+.socialIcon:hover {
+    cursor: pointer;
+}
+section#contact {
+    width: 100vw;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/andy-1920x1166.jpg);
+    background-size: cover;
+    font-family: "Philosopher";
+}
+
+.Container{
+    width: 800px;
+    height: 450px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.Container h1{
+    margin-left: 900px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 40px;
+    font-family: "Philosopher";
+    
+}
+
+
+.back{
+    margin-left: 990px;
+    background: rgba(56, 27, 97, 0.3);    
+    background-size: cover;
+    display: inline-block;
+    width:700px;
+    height: 300px;
+    text-align: justify;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 70px;
+    position: relative;
+}
+
+
+
+
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 5px 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+}
+.Container h1{
+    margin-left: 900px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 40px;
+    font-family: "Philosopher";
+    
+}
+.Container h1{
+    margin-left: 900px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 40px;
+    font-family: "Philosopher";
+    
+}
+@media screen and (max-width: 1440px){
+.Container h1{
+    margin-left: 390px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 40px;
+    font-family: "Philosopher";
+    
+}
+.back {
+    margin-left: 390px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 770px;
+    height: 300px;
+    text-align: justify;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+form{
+    padding: 45px;
+    margin: 8px;
+        
+    }
+h2{
+    margin: 45px 105px;
+    position: relative;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 1280px){
+.Container h1{
+    margin-left: 310px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 40px;
+    font-family: "Philosopher";
+    
+}
+.back {
+    margin-left: 310px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 770px;
+    height: 300px;
+    text-align: justify;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 45px 105px;
+    position: relative;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 1024px){
+.Container h1{
+    margin-left: 140px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 70px;
+    font-family: "Philosopher";
+    margin-top: 40px;
+    
+}
+.back {
+    margin-left: 140px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 770px;
+    height: 300px;
+    text-align: justify;
+    padding: 20px 50px;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 45px 105px;
+    position: relative;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 840px){
+img{
+    margin-top:45px;
+        
+    }
+.Container h1{
+    margin-left: 35px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 125px;
+    font-family: "Philosopher";
+    margin-top: 110px;
+    
+}
+.back {
+    margin-left: 35px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 770px;
+    height: 300px;
+    text-align: justify;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 45px 105px;
+    position: relative;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 770px){
+img{
+    margin-top:45px;
+        
+    }
+.Container h1{
+    margin-left: 10px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 125px;
+    font-family: "Philosopher";
+    margin-top: 110px;
+    
+}
+.back {
+    margin-left: 10px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 740px;
+    height: 300px;
+    text-align: justify;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 45px 105px;
+    position: relative;
+    font-size: 1.5rem;
+}
+form{
+    padding: 35px;
+    margin: -8px;
+        
+    }
+    
+    
+
+@media screen and (max-width: 500px){
+img{
+    margin-top:20px;
+        
+    }
+.Container h1{
+    margin-left: 10px;
+    position: relative;
+    font-size: 2.0rem;
+    color: rgba(56, 27, 97, 1);
+    padding-bottom: 15px;
+    font-family: "Philosopher";
+    margin-top: 2px;
+    
+}
+.back {
+    margin-left: 10px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 390px;
+    height: 400px;
+    text-align: justify;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 40px -15px;
+    position: relative;
+    font-size: 1.5rem;
+}
+form{
+    padding: 35px;
+    margin: -8px;
+        
+    }
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+}
+}
+@media screen and (max-width: 400px){
+img{
+    margin-top:20;
+        
+    }
+.Container h1{
+    margin-left: 10px;
+    position: relative;
+    font-size: 2.0rem;
+    color: white;
+    padding-bottom: 72px;
+    font-family: "Philosopher";
+    margin-top: 2px;
+    
+}
+.back {
+    margin-left: 10px;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 350px;
+    height: 380px;
+    text-align: justify;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 15px -15px;
+    position: relative;
+    font-size: 1.5rem;
+}
+form{
+    padding: 4px 45px;
+    margin: -8px;
+        
+    }
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+}
+}
+@media screen and (max-width: 320px){
+img{
+    margin-top:20;
+        
+    }
+.Container h1{
+    margin-left: 10px;
+    position: relative;
+    font-size: 2.0rem;
+    color: white;
+    padding-bottom: 0;
+    font-family: "Philosopher";
+    margin-top: 0;
+    
+}
+.back {
+    margin-left: 0;
+    background: rgba(56, 27, 97, 0.3);
+    background-size: cover;
+    display: inline-block;
+    width: 320px;
+    height: 340px;
+    text-align: justify;
+    color: white;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    box-sizing: inherit;
+}
+
+h2{
+    margin: 10px -55px;
+    position: relative;
+    font-size: 1.5rem;
+}
+form{
+    padding: 0 20px;
+    margin: -8px;
+        
+    }
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.Copyright {
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    text-align: center;
+}
+}

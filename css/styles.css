@@ -1,0 +1,362 @@
+abody {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    margin-left: 30px;
+    padding-left: 20px;
+    font-family: "Philosopher";
+    font-size: 1.2rem;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    background: rgba(56, 27, 97, 0.8);
+    cursor: pointer;
+}
+
+.socialIcon {
+    display: inline-flex;
+    margin: 5px;
+    padding-right: 30px;
+}
+
+.socialIcon:hover {
+    cursor: pointer;
+}
+
+section#Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/ebg-1920x1166.jpg) no-repeat;
+    transition: .5s;
+
+}
+
+.container {
+    position: relative;
+    float: right;
+    width: 1000px;
+    height: 900px;
+    background: rbga(255, 255, 255, 0.0)
+}
+
+h1 {
+    font-family: "Vesper Libre";
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-family: "Vesper Libre";
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    font-family: "Philosopher";
+    font-weight: 400;
+    position: relative;
+    margin: 40px 400px;
+    background-color: #45276f;
+}
+
+@media screen and (max-width: 1440px) {
+    section#Home {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        min-height: 100%;
+        background: url(../img/ebg-1760x1166.jpg) no-repeat;
+
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background: rbga(255, 255, 255, 0.0)
+    }
+
+    h1 {
+        font-family: "Vesper Libre";
+        position: relative;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 160px;
+        text-align: center;
+        color: white;
+    }
+
+    h3 {
+        font-family: "Vesper Libre";
+        position: relative;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #45276f;
+        color: white;
+    }
+
+    .btn {
+        font-family: "Philosopher";
+        font-weight: 400;
+        position: flex;
+        float: right;
+        background-color: #45276f;
+
+    }
+
+    @media screen and (max-width: 1280px) {
+        section#Home {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            min-height: 100%;
+            background: url(../img/ebg-1760x1166.jpg) no-repeat;
+
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: auto;
+            background: rbga(255, 255, 255, 0.0)
+        }
+
+        h1 {
+            font-family: "Vesper Libre";
+            position: relative;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-top: 215px;
+            margin-left: 350px;
+            text-align: center;
+            color: white;
+        }
+
+        h3 {
+            font-family: "Vesper Libre";
+            position: relative;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 20px;
+            margin-left: 300px;
+            text-align: center;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #45276f;
+            color: white;
+        }
+
+        .btn {
+            font-family: "Philosopher";
+            font-weight: 400;
+            position: flex;
+            background-color: #45276f;
+
+        }
+
+        @media screen and (max-width: 1030px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/ebg-1024x1336.jpg) no-repeat;
+
+            }
+
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
+
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 2.5rem;
+                margin-top: 285px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
+
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin-top: 20px;
+                text-align: center;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #45276f;
+                color: white;
+                margin-left: 0;
+            }
+
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: flex;
+                margin: 20px 200px;
+                background-color: #45276f;
+
+            }
+
+            @media screen and (max-width: 834px) {
+                section#Home {
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+                    min-height: 100%;
+                    background: url(../img/ebg-800x1281.jpg) no-repeat;
+
+                }
+
+                .container {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    background: rbga(255, 255, 255, 0.0)
+                }
+
+                h1 {
+                    font-family: "Vesper Libre";
+                    position: relative;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    margin-top: 275px;
+                    text-align: center;
+                    color: white;
+                }
+
+                h3 {
+                    font-family: "Vesper Libre";
+                    position: relative;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    margin-top: 20px;
+                    text-align: center;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #45276f;
+                    color: white;
+                }
+
+                .btn {
+                    font-family: "Philosopher";
+                    font-weight: 400;
+                    position: flex;
+                    margin: 20px 200px;
+                    background-color: #45276f;
+
+                }
+
+                @media screen and (max-width: 500px) {
+                    section#Home {
+                        position: relative;
+                        width: 100%;
+                        height: 100vh;
+                        min-height: 100%;
+                        background: url(../img/ebg-500x896.jpg) no-repeat;
+
+                    }
+
+                    .container {
+                        position: relative;
+                        width: 100%;
+                        height: auto;
+                        background: rbga(255, 255, 255, 0.0)
+                    }
+
+                    h1 {
+                        font-family: "Vesper Libre";
+                        position: relative;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        margin-top: 150px;
+                        text-align: center;
+                        color: white;
+                    }
+
+                    h3 {
+                        font-family: "Vesper Libre";
+                        position: relative;
+                        font-weight: bold;
+                        font-size: 1.5rem;
+                        margin-top: 20px;
+                        text-align: center;
+                        -webkit-text-stroke-width: 1px;
+                        -webkit-text-stroke-color: #45276f;
+                        color: white;
+                    }
+
+                    .btn {
+                        font-family: "Philosopher";
+                        font-weight: 400;
+                        position: flex;
+                        margin: 10px 50px;
+                        background-color: #45276f;
+                    }
+
+                    @media screen and (max-width: 400px) {
+                        section#Home {
+                            position: relative;
+                            width: 100%;
+                            height: 100vh;
+                            min-height: 100%;
+                            background: url(../img/ebg-320x600.jpg) no-repeat;
+
+                        }
+
+                        .container {
+                            position: relative;
+                            width: 100%;
+                            height: auto;
+                            background: rbga(255, 255, 255, 0.0)
+                        }
+
+                        h1 {
+                            font-family: "Vesper Libre";
+                            position: relative;
+                            font-weight: bold;
+                            font-size: 25px;
+                            margin-top: 100px;
+                            text-align: center;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #45276f;
+                            color: white;
+                        }
+
+                        h3 {
+                            font-family: "Vesper Libre";
+                            position: relative;
+                            font-weight: bold;
+                            font-size: 1.5rem;
+                            margin-top: 10px;
+                            text-align: center;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #45276f;
+                            color: white;
+                        }
+
+                        .btn {
+                            font-family: "Philosopher";
+                            font-weight: 400;
+                            position: flex;
+                            margin: 10px 50px;
+                            background-color: #45276f;
+                        }
