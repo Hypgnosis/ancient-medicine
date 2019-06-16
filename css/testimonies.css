@@ -1,9 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
-    }
+}
+
+em {
+    font-family: "Philosopher"
+        font-size: 18px;
+
+}
 
 .nav-link {
     margin-left: 30px;
@@ -27,16 +33,19 @@
 .socialIcon:hover {
     cursor: pointer;
 }
+
 section#testimonies {
-   background: #45276f;
+    background: #45276f;
 }
-#slide{
+
+#slide {
     position: relative;
     margin: auto;
     width: 1000px;
     height: 301px;
 }
-#slide ul{
+
+#slide ul {
     position: relative;
     top: 0;
     left: 0;
@@ -44,13 +53,15 @@ section#testimonies {
     height: 301px;
     background: url(../img/andy-workshop1.jpg);
 }
-#slide ul li img{
+
+#slide ul li img {
     position: absolute;
     opacity: 0;
     left: 0;
     transition: 1s ease-out;
 }
-#slide ul li label{
+
+#slide ul li label {
     position: relative;
     z-index: 3;
     top: 304px;
@@ -64,27 +75,65 @@ section#testimonies {
     cursor: pointer;
     border-radius: 100%;
 }
-#slide ul li label:hover{
+
+#slide ul li label:hover {
     background: rgba(56, 27, 97, 0.6);
 }
-#slide ul li label:active{
-    background: 813fdc;
+
+#slide ul li label:active {
+    background: white;
 }
-#slide ul li input{
+
+#slide ul li input {
     display: none;
 }
-#slide ul li input#button-1:checked ~ #Photo-1{
+
+#slide ul li input#button-1:checked ~ #Photo-1 {
     opacity: 1;
 }
-#slide ul li input#button-2:checked ~ #Photo-2{
+
+#slide ul li input#button-2:checked ~ #Photo-2 {
     opacity: 1;
 }
-#slide ul li input#button-3:checked ~ #Photo-3{
+
+#slide ul li input#button-3:checked ~ #Photo-3 {
     opacity: 1;
 }
-#slide ul li input#button-4:checked ~ #Photo-4{
+
+#slide ul li input#button-4:checked ~ #Photo-4 {
     opacity: 1;
 }
+
+.testimonial {
+    padding: 2% 15%;
+    text-align: center;
+    color: white;
+}
+
+.testimonial h1 {
+    font-family: "Vesper Libre";
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+.testimonial h2 {
+    font-family: "Vesper Libre";
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    padding-top: 2%;
+}
+
+.testimonial img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+    padding-top: 3%;
+}
+
+
+
 #Footer {
     position: fixed;
     bottom: 0;
@@ -98,6 +147,7 @@ section#testimonies {
     box-sizing: border-box;
     background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
 }
+
 .copyicon {
     width: 15px;
     height: auto;
@@ -110,97 +160,582 @@ section#testimonies {
     text-align: center;
 }
 
-@media screen and (max-width: 1440px){
-}
-@media screen and (max-width: 1280px){
-}
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1440px) {}
 
-@media screen and (max-width: 840px){
-}
-@media screen and (max-width: 770px){
-}
-@media screen and (max-width: 500px){
-}
-#Footer {
-    position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 2px 8px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 60px;
-    font-family: "Philosopher";
-    box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-}
-.copyicon {
-    width: 15px;
-    height: auto;
-    padding-bottom: 20px;
+@media screen and (max-width: 1280px) {
+    .testimonial h2 {
+        font-family: "Vesper Libre";
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1.8rem;
+        padding-top: 0;
+    }
+
+    .testimonial img {
+        width: 15%;
+        border-radius: 100%;
+        margin: 20px;
+        padding-top: 0;
+    }
 }
 
-.Copyright {
-    color: white;
-    font-size: 1.2rem;
-    position: relative;
-    text-align: center;
-}
-}
-@media screen and (max-width: 400px){
+@media screen and (max-width: 1024px) {
+    #slide {
+        position: relative;
+        margin: auto;
+        width: 1000px;
+        height: 500px;
+    }
 
-#Footer {
-    position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 2px 8px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 60px;
-    font-family: "Philosopher";
-    box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-}
-.copyicon {
-    width: 15px;
-    height: auto;
-    padding-bottom: 20px;
-}
+    #slide ul li label {
+        position: relative;
+        z-index: 3;
+        top: 610px;
+        left: 450px;
+        float: left;
+        width: 15px;
+        height: 15px;
+        margin: 0 2px;
+        background: #45276f;
+        border: 3px solid #eefb21;
+        cursor: pointer;
+        border-radius: 100%;
+    }
 
-.Copyright {
-    color: white;
-    font-size: 1.2rem;
-    position: relative;
-    text-align: center;
-}
-}
-@media screen and (max-width: 320px){
+    #Photo-1 {
+        height: 500px
+    }
 
-#Footer {
-    position: fixed;
-    bottom: 0;
-    margin: 0;
-    padding: 2px 8px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 60px;
-    font-family: "Philosopher";
-    box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-}
-.copyicon {
-    width: 15px;
-    height: auto;
-    padding-bottom: 20px;
-}
+    #Photo-2 {
+        height: 500px
+    }
 
-.Copyright {
-    color: white;
-    font-size: .9rem;
-    position: relative;
-    text-align: center;
-}
-}
+    #Photo-3 {
+        height: 500px
+    }
+
+    #Photo-4 {
+        height: 500px
+    }
+
+    .testimonial {
+        padding: 2% 15%;
+        text-align: center;
+        color: white;
+    }
+
+    .testimonial h1 {
+        font-family: "Vesper Libre";
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 2.5rem;
+        padding-top: 241px;
+    }
+
+    .testimonial h2 {
+        font-family: "Vesper Libre";
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1.6rem;
+        padding-top: 44px;
+    }
+
+    .testimonial img {
+        width: 15%;
+        border-radius: 100%;
+        margin: 20px;
+        padding-top: 0;
+    }
+
+    @media screen and (max-width: 840px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 500px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 834px;
+            height: 430px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 470px;
+            left: 395px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid #eefb21;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+            width: 834px;
+            height: 430px;
+        }
+
+        #Photo-2 {
+            width: 834px;
+            height: 430px;
+        }
+
+        #Photo-3 {
+            height: 500px;
+            width: 430;
+
+        }
+
+        #Photo-4 {
+            width: 834px;
+            height: 430px;
+        }
+
+        .testimonial {
+            padding: 2% 15%;
+            text-align: center;
+            color: white;
+        }
+
+        .testimonial h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 2.5rem;
+            padding-top: 0;
+        }
+
+        .testimonial h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.6rem;
+            padding-top: 31px;
+        }
+
+        .testimonial img {
+            width: 15%;
+            border-radius: 100%;
+            margin: 20px;
+            padding-top: 0;
+        }
+
+    }
+
+    @media screen and (max-width: 770px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 1000px;
+            height: 500px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 768px;
+            height: 350px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 360px;
+            left: 360px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid #eefb21;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+            width: 768px;
+            height: 350px;
+        }
+
+        #Photo-2 {
+            width: 768px;
+            height: 350px;
+        }
+
+        #Photo-3 {
+            width: 768px;
+            height: 350px;
+        }
+
+        #Photo-4 {
+            width: 768px;
+            height: 350px;
+        }
+
+        .testimonial {
+            padding: 2% 11%;
+            text-align: center;
+            color: white;
+        }
+
+        .testimonial h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 2.5rem;
+            padding-top: 0;
+        }
+
+        .testimonial h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.6rem;
+            padding-top: 5px;
+        }
+
+        .testimonial img {
+            width: 15%;
+            border-radius: 100%;
+            margin: 20px;
+            padding-top: 0;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 414px;
+            height: 285px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 414px;
+            height: 190px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 210px;
+            left: 170px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid #eefb21;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-2 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-3 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-4 {
+            width: 414px;
+            height: 190px;
+        }
+
+        .testimonial {
+            padding: 2% 11%;
+            text-align: center;
+            color: white;
+        }
+
+        .testimonial h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.6rem;
+            padding-top: 0;
+        }
+
+        .testimonial h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1rem;
+            padding-top: 5px;
+        }
+
+        .testimonial img {
+            width: 15%;
+            border-radius: 100%;
+            margin: 20px;
+            padding-top: 0;
+        }
+
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            padding: 2px 8px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            font-family: "Philosopher";
+            box-sizing: border-box;
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        }
+
+        .copyicon {
+            width: 12px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+
+        .Copyright {
+            color: white;
+            font-size: 1.2rem;
+            position: relative;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 360px;
+            height: 191px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 360px;
+            height: 200px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 210px;
+            left: 140px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid #eefb21;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+            width: 360px;
+            height: 200px;
+        }
+
+        #Photo-2 {
+            width: 360px;
+            height: 200px;
+        }
+
+        #Photo-3 {
+            width: 360px;
+            height: 200px;
+        }
+
+        #Photo-4 {
+            width: 360px;
+            height: 200px;
+        }
+
+        .testimonial {
+            padding: 0% 5%;
+            text-align: center;
+            color: white;
+        }
+
+        .testimonial h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.3rem;
+            padding-top: 60px;
+        }
+
+        .testimonial h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: .9rem;
+            padding-top: 73px;
+        }
+
+        .testimonial img {
+            width: 15%;
+            border-radius: 100%;
+            margin: 20px;
+            padding-top: 0;
+        }
+
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            padding: 2px 8px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            font-family: "Philosopher";
+            box-sizing: border-box;
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        }
+
+        .copyicon {
+            width: 12px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+
+        .Copyright {
+            color: white;
+            font-size: 1rem;
+            position: relative;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 320px;
+            height: 145px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 320px;
+            height: 145px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 150px;
+            left: 115px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid #eefb21;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+             width: 320px;
+            height: 145px;
+        }
+
+        #Photo-2 {
+             width: 320px;
+            height: 145px;
+        }
+
+        #Photo-3 {
+             width: 320px;
+            height: 145px;
+        }
+
+        #Photo-4 {
+             width: 320px;
+            height: 145px;
+        }
+
+        .testimonial {
+            padding: 0% 2%;
+            text-align: center;
+            color: white;
+        }
+
+        .testimonial h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.2rem;
+            padding-top: 30px;
+        }
+
+        .testimonial h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: .8rem;
+            padding-top: 65px;
+        }
+
+        .testimonial img {
+            width: 15%;
+            border-radius: 100%;
+            margin: 20px;
+            padding-top: 0;
+        }
+
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            padding: 2px 8px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            font-family: "Philosopher";
+            box-sizing: border-box;
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        }
+
+        .copyicon {
+            width: 12px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+
+        .Copyright {
+            color: white;
+            font-size: .9rem;
+            position: relative;
+            text-align: center;
+        }
+    }
