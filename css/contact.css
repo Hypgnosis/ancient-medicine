@@ -249,6 +249,16 @@ h2{
     font-size: 1.5rem;
 }
 @media screen and (max-width: 770px){
+    section#contact {
+    width: 100vw;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/andy-770.jpg);
+    background-size: cover;
+    font-family: "Philosopher";
+}
 img{
     margin-top:45px;
         
@@ -291,6 +301,16 @@ form{
     
 
 @media screen and (max-width: 500px){
+ section#contact {
+    width: 100vw;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/andy-440x896.jpg);
+    background-size: cover;
+    font-family: "Philosopher";
+}
 img{
     margin-top:20px;
         
