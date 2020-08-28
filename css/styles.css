@@ -31,7 +31,7 @@ section#Home {
     width: 100%;
     height: 100vh;
     min-height: 100%;
-    background: url(../img/ebg-1920x1166.jpg) no-repeat;
+    background: url(../img/ebg-1920x1271.jpg) no-repeat;
     transition: .5s;
 
 }
@@ -70,13 +70,40 @@ h3 {
     background-color: #45276f;
 }
 
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 5px 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+
+.copyicon {
+    width: 15px;
+    height: auto;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center
+}
+
 @media screen and (max-width: 1440px) {
     section#Home {
         position: relative;
         width: 100%;
         height: 100vh;
         min-height: 100%;
-        background: url(../img/ebg-1760x1166.jpg) no-repeat;
+        background: url(../img/ebg-1920x1166.jpg) no-repeat;
+        background-size: cover;
 
     }
 
@@ -124,8 +151,8 @@ h3 {
             width: 100%;
             height: 100vh;
             min-height: 100%;
-            background: url(../img/ebg-1760x1166.jpg) no-repeat;
-
+            background: url(../img/ebg-1280x1166.jpg) no-repeat;
+            background-size: cover;
         }
 
         .container {
@@ -174,7 +201,7 @@ h3 {
                 height: 100vh;
                 min-height: 100%;
                 background: url(../img/ebg-1024x1336.jpg) no-repeat;
-
+                background-size: cover;
             }
 
             .container {
@@ -224,6 +251,7 @@ h3 {
                     height: 100vh;
                     min-height: 100%;
                     background: url(../img/ebg-800x1281.jpg) no-repeat;
+                    background-size: cover;
 
                 }
 
@@ -272,6 +300,7 @@ h3 {
                         height: 100vh;
                         min-height: 100%;
                         background: url(../img/ebg-500x896.jpg) no-repeat;
+                        background-size: cover;
 
                     }
 
@@ -319,6 +348,7 @@ h3 {
                             height: 100vh;
                             min-height: 100%;
                             background: url(../img/ebg-320x600.jpg) no-repeat;
+                            background-size: cover;
 
                         }
 
