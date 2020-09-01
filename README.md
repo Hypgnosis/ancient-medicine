@@ -1,1 +1,1 @@
-# shamanic
+# Ancient Medicine Ceremonies
