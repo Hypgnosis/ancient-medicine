@@ -45,7 +45,7 @@ section#myStory {
     max-width: 700px;
     max-height: 675px;
     font-family: "Vesper Libre";
-    background: linear-gradient(rgba(56, 27, 97, 0.8) #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8) #090065);
     overflow: scroll;
     border-radius: 20px;
 
@@ -62,7 +62,7 @@ section#myStory {
 }
 
 .Container::-webkit-scrollbar-thumb {
-    background: linear-gradient(#3d1d69, #effc20);
+    background: linear-gradient(#3d1d69, #090065);
     border-radius: 6px;
 }
 
@@ -93,7 +93,7 @@ section#myStory h1 {
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 
 .copyicon {
@@ -127,7 +127,7 @@ section#myStory h1 {
          max-width: 650px;
         max-height: 580px;
         font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         overflow: scroll;
 }
 
@@ -150,7 +150,7 @@ section#myStory h1 {
          max-width: 700px;
         max-height: 975px;
         font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         overflow: scroll;
 }
 
@@ -174,7 +174,7 @@ section#myStory h1 {
         max-width: 300px;
         max-height: 600px;
         font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         overflow: scroll;
 }
     
@@ -197,36 +197,37 @@ section#myStory h1 {
         max-width: 300px;
         max-height: 600px;
         font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         overflow: scroll;
 }
     
-     #Footer {
-            position: fixed;
-            bottom: 0;
-            margin: 0;
-            padding: 2px 8px;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 60px;
-            font-family: "Philosopher";
-            box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-}
+      #Footer {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 10px 25px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 40px;
+                font-family: "Philosopher";
+                font-size: .8rem;
+                box-sizing: border-box;
+                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+ }
 
         .copyicon {
-            width: 12px;
-            height: auto;
-            padding-bottom: 5px;
-}
+                width: 10px;
+                height: auto;
+ }
 
         .Copyright {
-            color: white;
-            font-size: .9rem;
-            position: relative;
-            text-align: center;
-}
+                color: white;
+                font-size: .8rem;
+                position: relative;
+                text-align: center
+ }
+    
     @media screen and (max-width:400px){
       section#myStory {
         position: relative;
@@ -285,7 +286,7 @@ section#myStory h1 {
             height: 50px;
             font-family: "Philosopher";
             box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 
         .copyicon {
