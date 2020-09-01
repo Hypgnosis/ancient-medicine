@@ -31,7 +31,7 @@ section#Home {
     width: 100%;
     height: 100vh;
     min-height: 100%;
-    background: url(../img/ebg-1920x1271.jpg) no-repeat;
+    background: url(../img/nuevo%20aguila-1920x1271.jpg) no-repeat;
     transition: .5s;
 
 }
@@ -48,7 +48,7 @@ h1 {
     font-family: "Vesper Libre";
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 300px;
+    margin-top: 100px;
     text-align: center;
     color: white;
 }
@@ -81,7 +81,7 @@ h3 {
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 
 .copyicon {
@@ -102,7 +102,7 @@ h3 {
         width: 100%;
         height: 100vh;
         min-height: 100%;
-        background: url(../img/ebg-1920x1166.jpg) no-repeat;
+        background: url(../img/nuevo%20aguila-1440x900.jpg) no-repeat;
         background-size: cover;
 
     }
@@ -119,7 +119,7 @@ h3 {
         position: relative;
         font-weight: bold;
         font-size: 2rem;
-        margin-top: 160px;
+        margin-top: 100px;
         text-align: center;
         color: white;
     }
@@ -141,7 +141,7 @@ h3 {
         font-weight: 400;
         position: flex;
         float: right;
-        background-color: #45276f;
+        background-color: #090065;
 
     }
 
@@ -151,7 +151,7 @@ h3 {
             width: 100%;
             height: 100vh;
             min-height: 100%;
-            background: url(../img/ebg-1280x1166.jpg) no-repeat;
+            background: url(../img/nuevo%20aguila-1280x900.jpg) no-repeat;
             background-size: cover;
         }
 
@@ -167,8 +167,8 @@ h3 {
             position: relative;
             font-weight: bold;
             font-size: 2rem;
-            margin-top: 215px;
-            margin-left: 350px;
+            margin-top: 100px;
+            margin-left: 400px;
             text-align: center;
             color: white;
         }
@@ -200,7 +200,7 @@ h3 {
                 width: 100%;
                 height: 100vh;
                 min-height: 100%;
-                background: url(../img/ebg-1024x1336.jpg) no-repeat;
+                background: url(../img/nuevo%20aguila-1030x768.jpg) no-repeat;
                 background-size: cover;
             }
 
@@ -216,7 +216,7 @@ h3 {
                 position: relative;
                 font-weight: bold;
                 font-size: 2.5rem;
-                margin-top: 285px;
+                margin-top: 50px;
                 text-align: center;
                 color: white;
                 margin-left: 0;
@@ -239,154 +239,308 @@ h3 {
                 font-family: "Philosopher";
                 font-weight: 400;
                 position: flex;
-                margin: 20px 200px;
+                margin: 50px 200px;
                 background-color: #45276f;
-
+            }
+            
+             @media screen and (max-width: 992px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/nuevo%20aguila-mobil.jpg) no-repeat;
+                background-size: cover;
             }
 
-            @media screen and (max-width: 834px) {
-                section#Home {
-                    position: relative;
-                    width: 100%;
-                    height: 100vh;
-                    min-height: 100%;
-                    background: url(../img/ebg-800x1281.jpg) no-repeat;
-                    background-size: cover;
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
 
-                }
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 2rem;
+                margin-top: 50px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
 
-                .container {
-                    position: relative;
-                    width: 100%;
-                    height: auto;
-                    background: rbga(255, 255, 255, 0.0)
-                }
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin-top: 20px;
+                margin-left: 30px;
+                text-align: center;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #45276f;
+                color: white;
+                margin-left: 0;
+            }
 
-                h1 {
-                    font-family: "Vesper Libre";
-                    position: relative;
-                    font-weight: bold;
-                    font-size: 2rem;
-                    margin-top: 275px;
-                    text-align: center;
-                    color: white;
-                }
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: relative;
+                margin: 50px 250px;
+                background-color: #45276f;
+            }
+                 
+            #Footer {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 10px 25px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 40px;
+                font-family: "Philosopher";
+                font-size: .8rem;
+                box-sizing: border-box;
+                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+            }
 
-                h3 {
-                    font-family: "Vesper Libre";
-                    position: relative;
-                    font-weight: bold;
-                    font-size: 1.5rem;
-                    margin-top: 20px;
-                    text-align: center;
-                    -webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color: #45276f;
-                    color: white;
-                }
+            .copyicon {
+                width: 10px;
+                height: auto;
+            }
 
-                .btn {
-                    font-family: "Philosopher";
-                    font-weight: 400;
-                    position: flex;
-                    margin: 20px 200px;
-                    background-color: #45276f;
+            .Copyright {
+                color: white;
+                font-size: .8rem;
+                position: relative;
+                text-align: center
+            }
+           
+                 @media screen and (max-width: 750px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/nuevo%20aguila-mobil%20750.jpg) no-repeat;
+                background-size: cover;
+            }
 
-                }
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
 
-                @media screen and (max-width: 500px) {
-                    section#Home {
-                        position: relative;
-                        width: 100%;
-                        height: 100vh;
-                        min-height: 100%;
-                        background: url(../img/ebg-500x896.jpg) no-repeat;
-                        background-size: cover;
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 2rem;
+                margin-top: 50px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
 
-                    }
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin-top: 20px;
+                margin-left: 30px;
+                text-align: center;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #45276f;
+                color: white;
+                margin-left: 0;
+            }
 
-                    .container {
-                        position: relative;
-                        width: 100%;
-                        height: auto;
-                        background: rbga(255, 255, 255, 0.0)
-                    }
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: relative;
+                margin: 20px 100px;
+                background-color: #45276f;
+            }
+           
+            #Footer {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 10px 25px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 40px;
+                font-family: "Philosopher";
+                font-size: .8rem;
+                box-sizing: border-box;
+                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+            }
 
-                    h1 {
-                        font-family: "Vesper Libre";
-                        position: relative;
-                        font-weight: bold;
-                        font-size: 1.5rem;
-                        margin-top: 150px;
-                        text-align: center;
-                        color: white;
-                    }
+            .copyicon {
+                width: 10px;
+                height: auto;
+            }
 
-                    h3 {
-                        font-family: "Vesper Libre";
-                        position: relative;
-                        font-weight: bold;
-                        font-size: 1.5rem;
-                        margin-top: 20px;
-                        text-align: center;
-                        -webkit-text-stroke-width: 1px;
-                        -webkit-text-stroke-color: #45276f;
-                        color: white;
-                    }
+            .Copyright {
+                color: white;
+                font-size: .8rem;
+                position: relative;
+                text-align: center
+            }
+            
+             @media screen and (max-width: 640px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/nuevo%20aguila-mobil%20640.jpg) no-repeat;
+                background-size: cover;
+            }
 
-                    .btn {
-                        font-family: "Philosopher";
-                        font-weight: 400;
-                        position: flex;
-                        margin: 10px 50px;
-                        background-color: #45276f;
-                    }
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
 
-                    @media screen and (max-width: 400px) {
-                        section#Home {
-                            position: relative;
-                            width: 100%;
-                            height: 100vh;
-                            min-height: 100%;
-                            background: url(../img/ebg-320x601.jpg) no-repeat;
-                            background-size: cover;
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 2rem;
+                margin-top: 50px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
 
-                        }
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin-top: 20px;
+                margin-left: 30px;
+                text-align: center;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #45276f;
+                color: white;
+                margin-left: 0;
+            }
 
-                        .container {
-                            position: relative;
-                            width: 100%;
-                            height: auto;
-                            background: rbga(255, 255, 255, 0.0)
-                        }
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: relative;
+                margin: 20px 100px;
+                background-color: #45276f;
+            }
+            
+             @media screen and (max-width: 440px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/nuevo%20aguila-mobil%20440.jpg) no-repeat;
+                background-size: cover;
+            }
 
-                        h1 {
-                            font-family: "Vesper Libre";
-                            position: relative;
-                            font-weight: bold;
-                            font-size: 25px;
-                            margin-top: 75px;
-                            text-align: center;
-                            -webkit-text-stroke-width: 1px;
-                            -webkit-text-stroke-color: #45276f;
-                            color: white;
-                        }
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
 
-                        h3 {
-                            font-family: "Vesper Libre";
-                            position: relative;
-                            font-weight: bold;
-                            font-size: 1.5rem;
-                            margin-top: 10px;
-                            text-align: center;
-                            -webkit-text-stroke-width: 1px;
-                            -webkit-text-stroke-color: #45276f;
-                            color: white;
-                        }
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.5rem;
+                margin-top: 20px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
 
-                        .btn {
-                            font-family: "Philosopher";
-                            font-weight: 400;
-                            position: flex;
-                            margin: 10px 50px;
-                            background-color: #45276f;
-                        }
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.3rem;
+                margin-top: 20px;
+                margin-left: 20px;
+                text-align: center;             
+                color: white;
+                margin-left: 0;
+            }
+
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: relative;
+                margin: 15px 100px;
+                background-color: #45276f;
+            }
+            
+             @media screen and (max-width: 390px) {
+            section#Home {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                min-height: 100%;
+                background: url(../img/nuevo%20aguila-mobil%20320.jpg) no-repeat;
+                background-size: cover;
+            }
+
+            .container {
+                position: relative;
+                width: 100%;
+                height: auto;
+                background: rbga(255, 255, 255, 0.0)
+            }
+
+            h1 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.3rem;
+                margin-top: 20px;
+                text-align: center;
+                color: white;
+                margin-left: 0;
+            }
+
+            h3 {
+                font-family: "Vesper Libre";
+                position: relative;
+                font-weight: bold;
+                font-size: 1.1rem;
+                margin-top: 10px;
+                margin-left: 20px;
+                text-align: center;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #45276f;
+                color: white;
+                margin-left: 0;
+            }
+
+            .btn {
+                font-family: "Philosopher";
+                font-weight: 400;
+                position: relative;
+                margin: 5px 50px;
+                background-color: #45276f;
+            }
