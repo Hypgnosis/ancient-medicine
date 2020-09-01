@@ -145,7 +145,7 @@ section#testimonies {
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 
 .copyicon {
@@ -411,6 +411,32 @@ section#testimonies {
             margin: 20px;
             padding-top: 0;
         }
+         #Footer {
+                position: fixed;
+                bottom: 0;
+                margin: 0;
+                padding: 10px 25px;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 40px;
+                font-family: "Philosopher";
+                font-size: .8rem;
+                box-sizing: border-box;
+                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+ }
+
+        .copyicon {
+                width: 10px;
+                height: auto;
+ }
+
+        .Copyright {
+                color: white;
+                font-size: .8rem;
+                position: relative;
+                text-align: center
+ }
     }
 
     @media screen and (max-width: 500px) {
@@ -494,33 +520,7 @@ section#testimonies {
             padding-top: 0;
         }
 
-        #Footer {
-            position: fixed;
-            bottom: 0;
-            margin: 0;
-            padding: 2px 8px;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 60px;
-            font-family: "Philosopher";
-            box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-        }
-
-        .copyicon {
-            width: 12px;
-            height: auto;
-            padding-bottom: 5px;
-        }
-
-        .Copyright {
-            color: white;
-            font-size: 1.2rem;
-            position: relative;
-            text-align: center;
-        }
-    }
+}
 
     @media screen and (max-width: 400px) {
         #slide {
@@ -614,7 +614,7 @@ section#testimonies {
             height: 60px;
             font-family: "Philosopher";
             box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         }
 
         .copyicon {
@@ -711,31 +711,5 @@ section#testimonies {
             margin: 20px;
             padding-top: 0;
         }
+ }
 
-        #Footer {
-            position: fixed;
-            bottom: 0;
-            margin: 0;
-            padding: 2px 8px;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 60px;
-            font-family: "Philosopher";
-            box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
-        }
-
-        .copyicon {
-            width: 12px;
-            height: auto;
-            padding-bottom: 5px;
-        }
-
-        .Copyright {
-            color: white;
-            font-size: .9rem;
-            position: relative;
-            text-align: center;
-        }
-    }
