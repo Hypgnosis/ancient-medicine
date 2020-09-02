@@ -31,19 +31,27 @@ section#contact {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url(../img/andy-1920x1166.jpg);
+    background: url(../img/Eagle-1920x1166.jpg);
     background-size: cover;
     font-family: "Philosopher";
 }
 
+#logo-position-1 {
+    position:absolute;
+    top: 150px;
+    left: 200px;
+    width: 550px;
+    height: auto;
+}
+
 .Container{
     width: 800px;
-    height: 450px;
+    height: 500px;
     border-radius: 20px;
     position: relative;
 }
 
-.Container h1{
+.Container h1 {
     margin-left: 900px;
     position: relative;
     font-size: 2.0rem;
@@ -55,7 +63,7 @@ section#contact {
 
 
 .back{
-    margin-left: 990px;
+    margin-left: 1150px;
     background: rgba(56, 27, 97, 0.3);    
     background-size: cover;
     display: inline-block;
@@ -88,7 +96,7 @@ h2{
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
 }
 .copyicon {
     width: 15px;
@@ -350,31 +358,30 @@ form{
         
     }
 #Footer {
-            position: fixed;
-            bottom: 0;
-            margin: 0;
-            padding: 2px 8px;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 60px;
-            font-family: "Philosopher";
-            box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
-        }
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
 
-        .copyicon {
-            width: 12px;
-            height: auto;
-            padding-bottom: 5px;
-        }
-
-        .Copyright {
-            color: white;
-            font-size: 1rem;
-            position: relative;
-            text-align: center;
-        }
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+}
 }
 @media screen and (max-width: 400px){
 img{
@@ -415,6 +422,31 @@ form{
     margin: -8px;
         
     }
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    text-align: center;
+}
 }
 @media screen and (max-width: 320px){
 img{
@@ -455,4 +487,29 @@ form{
     margin: -8px;
         
     }
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+}
+.copyicon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.Copyright {
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    text-align: center;
+}
 }
