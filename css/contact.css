@@ -443,16 +443,19 @@ form{
 
 .Copyright {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: relative;
     text-align: center;
 }
 }
 @media screen and (max-width: 400px){
-img{
-    margin-top:20;
-        
-    }
+#logo-position-1 {
+    position:absolute;
+    top: 500px;
+    left: 25px;
+    width: 200px;
+    height: auto;
+}
 .Container h1{
     margin-left: 10px;
     position: relative;
@@ -508,7 +511,7 @@ form{
 
 .Copyright {
     color: white;
-    font-size: 1.2rem;
+    font-size: .8rem;
     position: relative;
     text-align: center;
 }
@@ -573,7 +576,7 @@ form{
 
 .Copyright {
     color: white;
-    font-size: .9rem;
+    font-size: .5rem;
     position: relative;
     text-align: center;
 }
