@@ -5,12 +5,6 @@
     text-decoration: none;
 }
 
-em {
-    font-family: "Philosopher"
-        font-size: 18px;
-
-}
-
 .nav-link {
     margin-left: 30px;
     padding-left: 20px;
@@ -34,8 +28,9 @@ em {
     cursor: pointer;
 }
 
-section#testimonies {
+section#events {
     background: #45276f;
+    background-size: cover;
 }
 
 #slide {
@@ -64,14 +59,14 @@ section#testimonies {
 #slide ul li label {
     position: relative;
     z-index: 3;
-    top: 304px;
-    left: 450px;
+    top: 325px;
+    left: 425px;
     float: left;
-    width: 15px;
-    height: 15px;
-    margin: 0 2px;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
     background: #45276f;
-    border: 3px solid #eefb21;
+    border: 3px solid white;
     cursor: pointer;
     border-radius: 100%;
 }
@@ -104,34 +99,30 @@ section#testimonies {
     opacity: 1;
 }
 
-.testimonial {
-    padding: 2% 15%;
+.dates {
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-    color: white;
+    background: #45276f;
+    background-size: cover;
 }
 
-.testimonial h1 {
+.dates h1 {
     font-family: "Vesper Libre";
     font-weight: 700;
+    color: white;
     line-height: 1.5;
     font-size: 2.5rem;
 }
 
-.testimonial h2 {
+.dates h2 {
     font-family: "Vesper Libre";
     font-weight: 700;
     line-height: 1.5;
+    color: white;
     font-size: 1.8rem;
     padding-top: 2%;
 }
-
-.testimonial img {
-    width: 15%;
-    border-radius: 100%;
-    margin: 20px;
-    padding-top: 3%;
-}
-
 
 
 #Footer {
@@ -160,27 +151,8 @@ section#testimonies {
     text-align: center;
 }
 
-@media screen and (max-width: 1440px) {}
-
 @media screen and (max-width: 1280px) {
-    .testimonial h2 {
-        font-family: "Vesper Libre";
-        font-weight: 700;
-        line-height: 1.5;
-        font-size: 1.8rem;
-        padding-top: 0;
-    }
-
-    .testimonial img {
-        width: 15%;
-        border-radius: 100%;
-        margin: 20px;
-        padding-top: 0;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    #slide {
+        #slide {
         position: relative;
         margin: auto;
         width: 1000px;
@@ -190,14 +162,14 @@ section#testimonies {
     #slide ul li label {
         position: relative;
         z-index: 3;
-        top: 610px;
+        top: 325px;
         left: 450px;
         float: left;
-        width: 15px;
-        height: 15px;
-        margin: 0 2px;
+        width: 25px;
+        height: 25px;
+        margin: 0 5px;
         background: #45276f;
-        border: 3px solid #eefb21;
+        border: 3px solid white;
         cursor: pointer;
         border-radius: 100%;
     }
@@ -218,21 +190,87 @@ section#testimonies {
         height: 500px
     }
 
-    .testimonial {
-        padding: 2% 15%;
-        text-align: center;
-        color: white;
-    }
+    .dates {
+    padding-top: 25px;
+    padding-bottom: 200px;
+    text-align: center;
+    background: #45276f;
+    background-size: cover;
+}
 
-    .testimonial h1 {
+    .dates h1 {
         font-family: "Vesper Libre";
         font-weight: 700;
         line-height: 1.5;
         font-size: 2.5rem;
-        padding-top: 241px;
+        padding-top: 10px;
     }
 
-    .testimonial h2 {
+    .dates h2 {
+        font-family: "Vesper Libre";
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 1.6rem;
+        padding-top: 44px;
+    }
+    
+@media screen and (max-width: 1024px) {
+    #slide {
+        position: relative;
+        margin: auto;
+        padding-right: 10px;
+        width: 1000px;
+        height: 500px;
+    }
+
+    #slide ul li label {
+        position: relative;
+        z-index: 3;
+        top: 325px;
+        left: 450px;
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin: 0 8px;
+        background: #45276f;
+        border: 3px solid white;
+        cursor: pointer;
+        border-radius: 100%;
+    }
+
+    #Photo-1 {
+        height: 500px
+    }
+
+    #Photo-2 {
+        height: 500px
+    }
+
+    #Photo-3 {
+        height: 500px
+    }
+
+    #Photo-4 {
+        height: 500px
+    }
+
+    .dates {
+    padding-top: 10px;
+    padding-bottom: 250px;
+    text-align: center;
+    background: #45276f;
+    background-size: cover;
+}
+
+    .dates h1 {
+        font-family: "Vesper Libre";
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 2.5rem;
+        padding-top: 5px;
+    }
+
+    .dates h2 {
         font-family: "Vesper Libre";
         font-weight: 700;
         line-height: 1.5;
@@ -240,16 +278,10 @@ section#testimonies {
         padding-top: 44px;
     }
 
-    .testimonial img {
-        width: 15%;
-        border-radius: 100%;
-        margin: 20px;
-        padding-top: 0;
-    }
-
+    
     @media screen and (max-width: 840px) {
         #slide {
-            position: relative;
+            position: absolute;
             margin: auto;
             width: 1000px;
             height: 500px;
@@ -267,14 +299,14 @@ section#testimonies {
         #slide ul li label {
             position: relative;
             z-index: 3;
-            top: 470px;
+            top: 325px;
             left: 395px;
             float: left;
-            width: 15px;
-            height: 15px;
-            margin: 0 2px;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
             background: #45276f;
-            border: 3px solid #eefb21;
+            border: 3px solid white;
             cursor: pointer;
             border-radius: 100%;
         }
@@ -300,13 +332,13 @@ section#testimonies {
             height: 430px;
         }
 
-        .testimonial {
+        .dates {
             padding: 2% 15%;
             text-align: center;
             color: white;
         }
 
-        .testimonial h1 {
+        .dates h1 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -314,7 +346,7 @@ section#testimonies {
             padding-top: 0;
         }
 
-        .testimonial h2 {
+        .dates h2 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -322,7 +354,7 @@ section#testimonies {
             padding-top: 31px;
         }
 
-        .testimonial img {
+        .dates img {
             width: 15%;
             border-radius: 100%;
             margin: 20px;
@@ -383,13 +415,13 @@ section#testimonies {
             height: 350px;
         }
 
-        .testimonial {
+        .dates {
             padding: 2% 11%;
             text-align: center;
             color: white;
         }
 
-        .testimonial h1 {
+        .dates h1 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -397,7 +429,7 @@ section#testimonies {
             padding-top: 0;
         }
 
-        .testimonial h2 {
+        .dates h2 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -405,39 +437,7 @@ section#testimonies {
             padding-top: 5px;
         }
 
-        .testimonial img {
-            width: 15%;
-            border-radius: 100%;
-            margin: 20px;
-            padding-top: 0;
         }
-         #Footer {
-                position: fixed;
-                bottom: 0;
-                margin: 0;
-                padding: 10px 25px;
-                left: 0;
-                right: 0;
-                width: 100%;
-                height: 40px;
-                font-family: "Philosopher";
-                font-size: .8rem;
-                box-sizing: border-box;
-                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
- }
-
-        .copyicon {
-                width: 10px;
-                height: auto;
- }
-
-        .Copyright {
-                color: white;
-                font-size: .8rem;
-                position: relative;
-                text-align: center
- }
-    }
 
     @media screen and (max-width: 500px) {
         #slide {
@@ -491,13 +491,14 @@ section#testimonies {
             height: 190px;
         }
 
-        .testimonial {
-            padding: 2% 11%;
+        .dates {
+            padding-top:20px;
+            padding-bottom: 15px;
             text-align: center;
             color: white;
         }
 
-        .testimonial h1 {
+        .dates h1 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -505,7 +506,7 @@ section#testimonies {
             padding-top: 0;
         }
 
-        .testimonial h2 {
+        .dates h2 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -513,14 +514,33 @@ section#testimonies {
             padding-top: 5px;
         }
 
-        .testimonial img {
-            width: 15%;
-            border-radius: 100%;
-            margin: 20px;
-            padding-top: 0;
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            padding: 2px 8px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            font-family: "Philosopher";
+            box-sizing: border-box;
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         }
 
-}
+        .copyicon {
+            width: 12px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+
+        .Copyright {
+            color: white;
+            font-size: 1.2rem;
+            position: relative;
+            text-align: center;
+        }
+    }
 
     @media screen and (max-width: 400px) {
         #slide {
@@ -574,13 +594,13 @@ section#testimonies {
             height: 200px;
         }
 
-        .testimonial {
+        .dates {
             padding: 0% 5%;
             text-align: center;
             color: white;
         }
 
-        .testimonial h1 {
+        .dates h1 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -588,7 +608,7 @@ section#testimonies {
             padding-top: 60px;
         }
 
-        .testimonial h2 {
+        .dates h2 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -596,13 +616,7 @@ section#testimonies {
             padding-top: 73px;
         }
 
-        .testimonial img {
-            width: 15%;
-            border-radius: 100%;
-            margin: 20px;
-            padding-top: 0;
-        }
-
+       
         #Footer {
             position: fixed;
             bottom: 0;
@@ -683,13 +697,13 @@ section#testimonies {
             height: 145px;
         }
 
-        .testimonial {
+        .dates {
             padding: 0% 2%;
             text-align: center;
             color: white;
         }
 
-        .testimonial h1 {
+        .dates h1 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -697,7 +711,7 @@ section#testimonies {
             padding-top: 30px;
         }
 
-        .testimonial h2 {
+        .dates h2 {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
@@ -705,11 +719,31 @@ section#testimonies {
             padding-top: 65px;
         }
 
-        .testimonial img {
-            width: 15%;
-            border-radius: 100%;
-            margin: 20px;
-            padding-top: 0;
+        
+        #Footer {
+            position: fixed;
+            bottom: 0;
+            margin: 0;
+            padding: 2px 8px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 60px;
+            font-family: "Philosopher";
+            box-sizing: border-box;
+            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
         }
- }
 
+        .copyicon {
+            width: 12px;
+            height: auto;
+            padding-bottom: 5px;
+        }
+
+        .Copyright {
+            color: white;
+            font-size: .9rem;
+            position: relative;
+            text-align: center;
+        }
+    }
