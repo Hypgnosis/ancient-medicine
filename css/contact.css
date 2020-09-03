@@ -96,7 +96,7 @@ h2{
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 .copyicon {
     width: 15px;
@@ -128,6 +128,14 @@ h2{
     
 }
 @media screen and (max-width: 1440px){
+
+#logo-position-1 {
+    position:absolute;
+    top: 100px;
+    left: 50px;
+    width: 350px;
+    height: auto;
+}
 .Container h1{
     margin-left: 390px;
     position: relative;
@@ -162,6 +170,14 @@ h2{
     font-size: 1.5rem;
 }
 @media screen and (max-width: 1280px){
+
+#logo-position-1 {
+    position:absolute;
+    top: 400px;
+    left: 100px;
+    width: 350px;
+    height: auto;
+}
 .Container h1{
     margin-left: 310px;
     position: relative;
@@ -192,14 +208,33 @@ h2{
     font-size: 1.5rem;
 }
 @media screen and (max-width: 1024px){
+
+section#contact {
+    width: 100vw;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/Eagle-1024x768.jpg);
+    background-size: cover;
+    font-family: "Philosopher";
+}
+    
+#logo-position-1 {
+    position:absolute;
+    top: 425px;
+    left: 75px;
+    width: 250px;
+    height: auto;
+}
 .Container h1{
-    margin-left: 140px;
+    margin-left:500px;
     position: relative;
     font-size: 2.0rem;
     color: rgba(56, 27, 97, 1);
     padding-bottom: 70px;
     font-family: "Philosopher";
-    margin-top: 40px;
+    margin-top: 0px;
     
 }
 .back {
@@ -223,18 +258,35 @@ h2{
     font-size: 1.5rem;
 }
 @media screen and (max-width: 840px){
-img{
-    margin-top:45px;
-        
-    }
+    
+section#contact {
+    width: 100vw;
+    height: 100vh;    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(../img/Eagle-1024x768.jpg);
+    background-size: cover;
+    font-family: "Philosopher";
+}
+    
+#logo-position-1 {
+    position:absolute;
+    top: 425px;
+    left: 75px;
+    width: 250px;
+    height: auto;
+}
+    
+
 .Container h1{
     margin-left: 35px;
     position: relative;
     font-size: 2.0rem;
     color: rgba(56, 27, 97, 1);
-    padding-bottom: 125px;
+    padding-bottom: 75px;
     font-family: "Philosopher";
-    margin-top: 110px;
+    margin-top: 0px;
     
 }
 .back {
@@ -257,28 +309,35 @@ h2{
     font-size: 1.5rem;
 }
 @media screen and (max-width: 770px){
-    section#contact {
+    
+section#contact {
     width: 100vw;
     height: 100vh;    
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url(../img/andy-770.jpg);
+    background: url(../img/Eagle-1024x768.jpg);
     background-size: cover;
     font-family: "Philosopher";
 }
-img{
-    margin-top:45px;
-        
-    }
+    
+#logo-position-1 {
+    position:absolute;
+    top: 425px;
+    left: 75px;
+    width: 250px;
+    height: auto;
+}
+   
 .Container h1{
-    margin-left: 10px;
+    margin-left: 100px;
     position: relative;
     font-size: 2.0rem;
     color: rgba(56, 27, 97, 1);
-    padding-bottom: 125px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     font-family: "Philosopher";
-    margin-top: 110px;
+    margin-top: 0px;
     
 }
 .back {
@@ -304,7 +363,7 @@ form{
     padding: 35px;
     margin: -8px;
         
-    }
+}
     
     
 
@@ -315,22 +374,28 @@ form{
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url(../img/andy-440x896.jpg);
+    background: url(../img/Eagle-1024x768.jpg);
     background-size: cover;
     font-family: "Philosopher";
 }
-img{
-    margin-top:20px;
-        
-    }
+    
+#logo-position-1 {
+    position:absolute;
+    top: 425px;
+    left: 75px;
+    width: 250px;
+    height: auto;
+}
+   
 .Container h1{
-    margin-left: 10px;
+    margin-left: 100px;
     position: relative;
     font-size: 2.0rem;
     color: rgba(56, 27, 97, 1);
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     font-family: "Philosopher";
-    margin-top: 2px;
+    margin-top: 0px;
     
 }
 .back {
@@ -368,7 +433,7 @@ form{
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 .copyicon {
     width: 15px;
@@ -433,7 +498,7 @@ form{
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 .copyicon {
     width: 15px;
@@ -498,7 +563,7 @@ form{
     height: 60px;
     font-family: "Philosopher";
     box-sizing: border-box;
-    background: linear-gradient(rgba(56, 27, 97, 0.8), #effc20);
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 .copyicon {
     width: 15px;
