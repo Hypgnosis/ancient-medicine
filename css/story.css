@@ -26,26 +26,26 @@ body {
     cursor: pointer;
 }
 
-section#myStory {
-    position: relative;
+#jaguarbg{
+    position: fixed;
+    z-index: -1;
     width: 100%;
     height: 100vh;
-    min-height: 100%;
-    background: url(../img/JC-1920-1166.jpg) no-repeat;
-    background-size: 100% 100%;
-    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    object-fit: cover;
 }
-
 .Container {
+    z-index: 1;
     float: left;
     margin-left: 55px;
     position: relative;
-    top: 70px;
-    left: 20px;
-    max-width: 700px;
-    max-height: 675px;
+    top: 50px;
+    left: 15px;
+    max-width: 610px;
+    max-height: 725px;
     font-family: "Vesper Libre";
-    background: linear-gradient(rgba(56, 27, 97, 0.8) #090065);
+    background:rgba(56, 27, 97, 0.8);
     overflow: scroll;
     border-radius: 20px;
 
@@ -107,199 +107,237 @@ section#myStory h1 {
     position: relative;
     text-align: center
 }
+
+@media (min-aspect-ratio: 16/9) {
+#jaguarbg {
+    width:100%;
+    height: auto;
+}
+}
+@media (max-aspect-ratio: 16/9) {
+#jaguarbg { 
+    width:auto;
+    height: 100%;
+}
+}
+
 @media screen and (max-width:1280px) {
-    section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-1024x1336.jpg) no-repeat;
-        background-size: cover;
-        transition: .5s;
-}
+    
+.Container {
+    z-index: 1;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    max-width: 590px;
+    max-height: 630px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
+    border-radius: 20px;
 
-    .Container {
-        float: left;
-        margin-left: 55px;
-        position: relative;
-        top: 70px;
-        left: 110px;
-         max-width: 650px;
-        max-height: 580px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
-        overflow: scroll;
 }
-
+}
 @media screen and (max-width:1030px) {
-    section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-1024x1336.jpg) no-repeat;
-        transition: .5s;
+.Container {
+    z-index: 1;
+    float: left;
+    margin-left: 55px;
+    position: relative;
+    top: 50px;
+    left: 15px;
+    max-width: 600px;
+    max-height: 650px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
+    border-radius: 20px;
+
+}
+}
+@media screen and (max-width:767px){
+#jaguarbg {
+    display: none;
+}
+section#myStory {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/scjaguar.jpg) no-repeat;
+    transition: .5s;
+    background-size: cover;
 }
 
-    .Container {
-        float: left;
-        margin-left: 55px;
-        position: relative;
-        top: 70px;
-        left: 110px;
-         max-width: 700px;
-        max-height: 975px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
-        overflow: scroll;
+.Container {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    max-width: 470px;
+    max-height: 670px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
+    border-radius: 20px;
+
+}
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    font-family: "Philosopher";
+    font-size: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8),#090065);
 }
 
-@media screen and (max-width:834px){
-      section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-800x1281.jpg) no-repeat;
-        transition: .5s;
-        background-size: cover;
+.copyicon {
+    width: 12px;
+    height: auto;
+    padding-bottom: 5px;
 }
 
-    .Container {
-        float: left;
-        margin-left: 55px;
-        position: relative;
-        top: 70px;
-        left: 80px;
-        max-width: 300px;
-        max-height: 600px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
-        overflow: scroll;
+.Copyright {
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    text-align: center;
 }
-    
 @media screen and (max-width:500px){
-      section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-500x896.jpg) no-repeat;
-        background-size: cover;
-        transition: .5s;
+section#myStory {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/scjaguar.jpg) no-repeat;
+    background-size: cover;
+    transition: .5s;
 }
 
-    .Container {
-        display: block;
-        margin-left: -45px;
-        position: relative;
-        top: 10px;
-        max-width: 300px;
-        max-height: 600px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
-        overflow: scroll;
+.Container {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    max-width:450px;
+    max-height: 670px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
+    border-radius: 20px;
+
 }
-    
-      #Footer {
-                position: fixed;
-                bottom: 0;
-                margin: 0;
-                padding: 10px 25px;
-                left: 0;
-                right: 0;
-                width: 100%;
-                height: 40px;
-                font-family: "Philosopher";
-                font-size: .8rem;
-                box-sizing: border-box;
-                background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+#Footer {
+   position: fixed;
+   bottom: 0;
+   margin: 0;
+   padding: 2px 8px;
+   left: 0;
+   right: 0;
+   width: 100%;
+   height: 60px;
+   font-family: "Philosopher";
+   font-size: 15px;
+   box-sizing: border-box;
+   background: linear-gradient(rgba(56, 27, 97, 0.8),#090065);
  }
 
-        .copyicon {
-                width: 10px;
-                height: auto;
- }
+.copyicon {
+    width: 12px;
+    height: auto;
+    padding-bottom: 5px;
+}
 
-        .Copyright {
-                color: white;
-                font-size: .8rem;
-                position: relative;
-                text-align: center
- }
-    
-    @media screen and (max-width:400px){
-      section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-500x896.jpg) no-repeat;
-        transition: .5s;
-        background-size: cover;
+.Copyright {
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    text-align: center;
+}
+@media screen and (max-width:400px){
+ section#myStory {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/scjaguar.jpg) no-repeat;
+    background-size: cover;
+    transition: .5s;
+}
+
+.Container {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    max-width: 325px;
+    max-height: 600px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
+    border-radius: 20px;
+}
+}
+
+@media screen and (max-width:300px){
+section#myStory {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background: url(../img/scjaguar.jpg) no-repeat;
+    transition: .5s;
+    background-size: cover;
         
 }
 
-    .Container {
-        display: block;
-        margin-left: -55px;
-        position: relative;
-        top: 10px;
-        max-width: 270px;
-        max-height: 440px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.7), rgba(238, 251, 33, 0.7));
-        overflow: scroll;    
-}
-         @media screen and (max-width:300px){
-      section#myStory {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        min-height: 100%;
-        background: url(../img/JC-320x568.jpg) no-repeat;
-        transition: .5s;
-        background-size: cover;
-        
-}
-
-    .Container {
-        display: block;
-        margin-left: -65px;
-        position: relative;
-        top: 10px;
-        max-width: 220px;
-        max-height: 370px;
-        font-family: "Vesper Libre";
-        background: linear-gradient(rgba(56, 27, 97, 0.7), rgba(238, 251, 33, 0.7));
-        overflow: scroll;
+.Container {
+    display: block;
+    margin-left: 0;
+    position: relative;
+    top: 10px;
+    max-width: 250px;
+    max-height: 600px;
+    font-family: "Vesper Libre";
+    background:rgba(56, 27, 97, 0.8);
+    overflow: scroll;
 }
              
-     #Footer {
-            position: fixed;
-            bottom: 0;
-            margin: 0;
-            padding: 2px 8px;
-            left: 0;
-            right: 0;
-            width: 100%;
-            height: 50px;
-            font-family: "Philosopher";
-            box-sizing: border-box;
-            background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
+#Footer {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 2px 8px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    font-family: "Philosopher";
+    box-sizing: border-box;
+    background: linear-gradient(rgba(56, 27, 97, 0.8), #090065);
 }
 
-        .copyicon {
-            width: 12px;
-            height: auto;
-            padding-bottom: 3px;
+.copyicon {
+    width: 12px;
+    height: auto;
+    padding-bottom: 3px;
 }
 
-        .Copyright {
-            color: white;
-            font-size: .7rem;
-            position: relative;
-            text-align: center;
+.Copyright {
+    color: white;
+    font-size: .7rem;
+    position: relative;
+    text-align: center;
 }
         
         
