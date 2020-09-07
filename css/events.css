@@ -280,111 +280,27 @@ section#events {
 
     
     @media screen and (max-width: 840px) {
-        #slide {
-            position: absolute;
+       #slide {
+            position: relative;
             margin: auto;
-            width: 1000px;
-            height: 500px;
+            width: 414px;
+            height: 285px;
         }
 
         #slide ul {
             position: relative;
             top: 0;
             left: 0;
-            width: 834px;
-            height: 430px;
+            width: 414px;
+            height: 190px;
             background: url(../img/andy-workshop1.jpg);
         }
 
         #slide ul li label {
             position: relative;
             z-index: 3;
-            top: 325px;
-            left: 395px;
-            float: left;
-            width: 20px;
-            height: 20px;
-            margin: 0 5px;
-            background: #45276f;
-            border: 3px solid white;
-            cursor: pointer;
-            border-radius: 100%;
-        }
-
-        #Photo-1 {
-            width: 834px;
-            height: 430px;
-        }
-
-        #Photo-2 {
-            width: 834px;
-            height: 430px;
-        }
-
-        #Photo-3 {
-            height: 500px;
-            width: 430;
-
-        }
-
-        #Photo-4 {
-            width: 834px;
-            height: 430px;
-        }
-
-        .dates {
-            padding: 2% 15%;
-            text-align: center;
-            color: white;
-        }
-
-        .dates h1 {
-            font-family: "Vesper Libre";
-            font-weight: 700;
-            line-height: 1.5;
-            font-size: 2.5rem;
-            padding-top: 0;
-        }
-
-        .dates h2 {
-            font-family: "Vesper Libre";
-            font-weight: 700;
-            line-height: 1.5;
-            font-size: 1.6rem;
-            padding-top: 31px;
-        }
-
-        .dates img {
-            width: 15%;
-            border-radius: 100%;
-            margin: 20px;
-            padding-top: 0;
-        }
-
-    }
-
-    @media screen and (max-width: 770px) {
-        #slide {
-            position: relative;
-            margin: auto;
-            width: 1000px;
-            height: 500px;
-        }
-
-        #slide ul {
-            position: relative;
-            top: 0;
-            left: 0;
-            width: 768px;
-            height: 350px;
-            background: url(../img/andy-workshop1.jpg);
-        }
-
-        #slide ul li label {
-            position: relative;
-            z-index: 3;
-            top: 360px;
-            left: 360px;
+            top: 210px;
+            left: 170px;
             float: left;
             width: 15px;
             height: 15px;
@@ -396,27 +312,28 @@ section#events {
         }
 
         #Photo-1 {
-            width: 768px;
-            height: 350px;
+            width: 414px;
+            height: 190px;
         }
 
         #Photo-2 {
-            width: 768px;
-            height: 350px;
+            width: 414px;
+            height: 190px;
         }
 
         #Photo-3 {
-            width: 768px;
-            height: 350px;
+            width: 414px;
+            height: 190px;
         }
 
         #Photo-4 {
-            width: 768px;
-            height: 350px;
+            width: 414px;
+            height: 190px;
         }
 
         .dates {
-            padding: 2% 11%;
+            padding-top:20px;
+            padding-bottom: 15px;
             text-align: center;
             color: white;
         }
@@ -425,7 +342,7 @@ section#events {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
-            font-size: 2.5rem;
+            font-size: 1.6rem;
             padding-top: 0;
         }
 
@@ -433,8 +350,94 @@ section#events {
             font-family: "Vesper Libre";
             font-weight: 700;
             line-height: 1.5;
-            font-size: 1.6rem;
+            font-size: 1rem;
             padding-top: 5px;
+        }
+        .dates img {
+            width: 75%;
+            margin: 20px;
+            padding-top: 0;
+        }
+    }
+
+    @media screen and (max-width: 770px) {
+        #slide {
+            position: relative;
+            margin: auto;
+            width: 414px;
+            height: 285px;
+        }
+
+        #slide ul {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 414px;
+            height: 190px;
+            background: url(../img/andy-workshop1.jpg);
+        }
+
+        #slide ul li label {
+            position: relative;
+            z-index: 3;
+            top: 210px;
+            left: 170px;
+            float: left;
+            width: 15px;
+            height: 15px;
+            margin: 0 2px;
+            background: #45276f;
+            border: 3px solid white;
+            cursor: pointer;
+            border-radius: 100%;
+        }
+
+        #Photo-1 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-2 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-3 {
+            width: 414px;
+            height: 190px;
+        }
+
+        #Photo-4 {
+            width: 414px;
+            height: 190px;
+        }
+
+        .dates {
+            padding-top:20px;
+            padding-bottom: 15px;
+            text-align: center;
+            color: white;
+        }
+
+        .dates h1 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1.6rem;
+            padding-top: 0;
+        }
+
+        .dates h2 {
+            font-family: "Vesper Libre";
+            font-weight: 700;
+            line-height: 1.5;
+            font-size: 1rem;
+            padding-top: 5px;
+        }
+        .dates img {
+            width: 65%;
+            margin: 20px;
+            padding-top: 0;
         }
 
         }
@@ -512,6 +515,11 @@ section#events {
             line-height: 1.5;
             font-size: 1rem;
             padding-top: 5px;
+        }
+        .dates img {
+            width: 50%;
+            margin: 20px;
+            padding-top: 0;
         }
 
         #Footer {
